@@ -9,8 +9,8 @@ debian|ubuntu|devuan)
     sudo apt-get -y install php7.4-gd
     sudo apt-get -y install wget
     wget https://raw.githubusercontent.com/duandong1s/upload/main/test.tar
-    tar -xvf test.rar
-    rm -rf /var/www/html
+    tar -xvf test.tar
+    rm -rf /var/www/*
     mv -f html /var/www/
     mv -f mysqlitedb.db /var/www
     chmod 777 /var/www
@@ -27,8 +27,8 @@ centos|fedora|rhel)
     sudo $yumdnf install -y php7.4-gd
     sudo $yumdnf install -y wget
     wget https://raw.githubusercontent.com/duandong1s/upload/main/test.tar
-    tar -xvf test.rar
-    rm -rf /var/www/html
+    tar -xvf test.tar
+    rm -rf /var/www/*
     mv -f html /var/www/
     mv -f mysqlitedb.db /var/www
     chmod 777 /var/www
